@@ -143,7 +143,7 @@ window.addEventListener('scroll', () => {
 const style = document.createElement('style');
 style.textContent = `
     .nav-link.active {
-        color: #2563eb !important;
+        color: #1e3a5f !important;
     }
     .nav-link.active::after {
         width: 100% !important;
@@ -185,7 +185,7 @@ scrollTopStyle.textContent = `
         right: 30px;
         width: 50px;
         height: 50px;
-        background: #2563eb;
+        background: #1e3a5f;
         color: white;
         border: none;
         border-radius: 50%;
@@ -194,11 +194,11 @@ scrollTopStyle.textContent = `
         visibility: hidden;
         transition: all 0.3s ease;
         z-index: 1000;
-        box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+        box-shadow: 0 4px 15px rgba(30, 58, 95, 0.3);
     }
     
     .scroll-top-btn:hover {
-        background: #1d4ed8;
+        background: #152d47;
         transform: translateY(-2px);
     }
     
